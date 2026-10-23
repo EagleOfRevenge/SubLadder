@@ -1,0 +1,6 @@
+Objectif de ce fichier :
+- Donner tous les "modes" liés au menu du client
+- Donner, pour chaque "menu", les fichiers liés à chacun des menus
+- Vérifier les modes encore à finaliser dans l’UI du client (notamment le flux ranked/streamer en vraie session)
+
+--------------------------------------------------------------------------------------

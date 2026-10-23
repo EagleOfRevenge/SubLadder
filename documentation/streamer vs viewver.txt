@@ -1,0 +1,39 @@
+###
+Mode Streamer vs Viewvers
+###
+
+- Screen pour que le streamer donne : lien du stream; temps de délai; temps accordé par quesion
+- 15 questions pour ce jeu
+- 2 jokers pour le streamer : 50/50(comme le jeu original) et "vote du puclic" (pourcentage pour chacune des réponses)
+- Database nécessaire pour garder : La dernière réponse "lock" par chacun des viewvers, et le nombre de bonne réponses pour chaque viewver
+
+Déroulé d'une question :
+- La question apparait à l'écran du streamer, et en stream, avec les 4 propositions
+- Les viewvers répondent en premiers (avec le temps imparti choisi par le streamer, le streamer a un bouton pour arrêter de prendre les votes). Attention seul le premier choix de chaque viewver est pris en compte (chaque viewver peut jouer, donc il peut y avoir 10 joueurs comme 10000 joueurs !!!)
+- A la fin du compte à rebours, le streamer peut répondre (seul le nombre de votant du coté des viewvers apparaît, pas les choix des viewvers)
+- Il peut utiliser un des deux jokers si nécessaire
+- Après que le streamer valide sa réponse on passe à la question suivante directement.
+
+A la fin du questionnaire, le mode "révalation de réponse" commence, où on donne la bonne réponse à chaque question et en plus :
+- Le pourcentage de votes pour chaque réponse apparait (de la même façon que le "vote du public")
+- La réponse du streamer apparaît en orange (comme dans le mode normal)
+- la bonne réponse apparaît en vert (et si le streamer a mal choisi sa réponse passe en rouge ...)
+
+Et on affiche le podium : les trois premiers sont affichés (les 3 qui ont le plus de bonne réponses)
+
+
+Ce qui reste à faire :
+
+__BLOC 3__ : Écran config Streamer (`game/screens/streamer_config.py` — formulaire session) *
+
+__BLOC 4__ : Écran jeu Viewvers (`game/screens/streamer_game_viewvers.py` — interface joueurs) *
+
+__BLOC 5__ : Écran vote Streamer (`game/screens/streamer_game_streamer.py` — jokers 50/50 + vote public) *
+
+__BLOC 6__ : Écran résultats (`game/screens/streamer_results.py` — bonnes réponses + pourcentages) *
+
+__BLOC 7__ : Écran podium (`game/screens/streamer_podium.py` — top 3 style sportif) *
+
+__BLOC 8__ : Intégration App (`game/main.py` — navigation vers nouveaux écrans)
+
+__BLOC 9__ : Intégration serveur (`server/server.py` — routes API)

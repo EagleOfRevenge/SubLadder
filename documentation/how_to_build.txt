@@ -1,0 +1,5 @@
+C:\Windows\System32\cmd.exe /c "cd /d d:\Program Files (x86)\SubLadder && build_windows_nuitka.bat onefile"
+
+powershell -ExecutionPolicy Bypass -File .\build_installer_windows.ps1
+
+powershell -NoProfile -Command "& 'C:\Users\guill\AppData\Local\Programs\Inno Setup 6\ISCC.exe' 'd:\Program Files (x86)\SubLadder\installer_client.iss'"

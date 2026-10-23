@@ -1,0 +1,273 @@
+# Sub Ladder — TODO / Roadmap
+
+---
+
+# 1. Client-side Improvements
+
+## Menu System Redesign (`menu.py`) [Done 23/05/2026]
+
+### Objective
+The current main menu contains too many buttons and feels visually overloaded.  
+Redesign the menu to create a cleaner and more ergonomic user experience.
+
+### New Menu Style
+Replace the current button list with a “roulette / selector” style menu.
+
+The interface should display:
+- The previous option in a greyed-out style
+- The currently selected option highlighted with:
+  - A brighter color
+  - A visible selector arrow
+- The next option in a greyed-out style
+
+### Navigation Controls
+Allow the player to navigate through menu options using:
+- Keyboard:
+  - Up Arrow
+  - Down Arrow
+  - Enter key to validate
+- Mouse:
+  - Mouse wheel scrolling
+  - Left click to validate
+
+### Additional Goals
+- Add smooth menu transitions/animations if possible
+- Improve readability and overall visual clarity
+- Reduce visual clutter caused by too many visible buttons
+
+---
+
+## Theme Improvements [Done 23/05/2026]
+
+### White Theme Text Visibility
+Fix text visibility issues in the “White” theme.
+
+### Problem
+- White text is currently displayed on a white/light background, making it difficult or impossible to read.
+
+### Solution
+- Replace white text with black text (or another dark color) when the “White” theme is enabled.
+- Ensure sufficient contrast and readability for all UI elements.
+
+---
+
+## Localization / Languages
+
+### Objective
+Add support for additional languages besides:
+- English
+- French
+
+### Goals
+- Create a scalable localization system
+- Make future language additions easy
+- Store translations in dedicated files or dictionaries
+
+---
+
+# 2. Server-side Improvements
+
+## Security Improvements
+
+### Objective
+Improve overall server security, especially regarding player data and exploit prevention.
+
+### Tasks
+- Improve player data protection
+- Validate packets and requests
+- Improve database security
+- Prevent common exploits and malicious actions
+- Sanitize incoming data
+
+---
+
+## Anti-cheat System [Done 23/05/2026]
+
+### Objective
+Improve cheat detection and prevention systems.
+
+### Tasks
+- Detect suspicious player behavior
+- Detect invalid game actions
+- Prevent packet manipulation
+- Log suspicious activities
+- Add automatic or manual flagging systems
+
+---
+
+## Ranked System
+
+### Objective
+Implement a ranked matchmaking / competitive mode.
+
+### Features
+- Player ranks
+- Elo/MMR system
+- Ranked progression
+- Match result tracking
+- Seasonal ranking system (optional)
+
+Elo/MMR Ranks (Top is the "best rank" -> Bottom is the "worst rank"):
+
+Grand Champion (Top 500 players in the world)
+Champion
+Diamond (I -> II -> III)
+Ruby (I -> II -> III)
+Emerald (I -> II -> III)
+Platinium (I -> II -> III)
+Gold (I -> II -> III)
+Silver (I -> II -> III)
+Bronze (I -> II -> III)
+Iron (I -> II -> III)
+
+---
+
+## Performance Optimization
+
+### Objective
+Reduce server resource usage and improve scalability.
+
+### Tasks
+- Optimize network usage
+- Reduce unnecessary server requests
+- Improve database query performance
+- Optimize memory usage
+- Improve concurrent player handling
+- Prevent server overload during high player counts
+
+---
+
+# 3. Admin Features
+
+## Administration Panel
+
+### Objective
+Create a full administrator/moderation panel.
+
+### Features
+- View player moderation flags
+- View active bans
+- View ban history
+
+### Ban Information
+Display:
+- Ban duration
+- Moderator/admin responsible
+- Ban start date
+- Ban end date
+- Ban reason
+
+### Admin Actions
+Allow administrators to:
+- Ban players
+- Unban players
+- Manage cheating reports
+- Moderate toxic behavior
+- View player history/logs
+
+---
+
+# 4. Assets & Content Creation
+
+## Visual Assets
+
+### Tasks
+Create:
+- Menu graphics
+- UI assets
+- Icons
+- Backgrounds
+- Effects/animations
+
+---
+
+## Audio Assets
+
+### Tasks
+Create:
+- Menu sounds
+- Validation sounds
+- Error sounds
+- Victory/defeat jingles
+- Ambient sounds/music
+
+---
+
+# 5. Future Ideas (Optional)
+
+## Gameplay & UX Improvements
+
+### Possible Features
+- Tutorial / onboarding
+- Better matchmaking
+- Progression system
+- Player statistics
+- Replay system
+- Accessibility options
+- UI animations
+- Better visual feedback
+- Cosmetic customization
+
+---
+
+# 6. Deployment & Security Checklist
+
+## Objectif
+Rendre le projet déployable en production, fiable et sécurisé — checklist pratique pour déployer le serveur et durcir l'ensemble.
+
+## Environnement & dépendances
+- Créer et documenter un environnement virtuel (`venv`/`pipenv`/`poetry`) et ajouter les commandes d'installation.
+- Fournir un `requirements.txt` ou `pyproject.toml` exact pour la production.
+- Ajouter un `Dockerfile` minimal et un `docker-compose.yml` pour exécution locale et CI.
+- Vérifier les versions de Python supportées et tester l'application contre elles.
+
+## Configuration & secrets
+- Extraire toutes les configurations sensibles vers des variables d'environnement (ne jamais commit de secrets).
+- Ajouter un guide pour la gestion des secrets (HashiCorp Vault / AWS Secrets Manager / `.env` + instructions strictes).
+- Fournir un `config.example.json` (déjà présent) et documenter la mise en place des valeurs en production.
+
+## Réseau & transport
+- Activer HTTPS/TLS en production (reverse proxy Nginx/Caddy ou certificat Let's Encrypt).
+- Forcer les connexions sécurisées côté client si applicable.
+- Bloquer les ports non nécessaires et fournir exemple de règles de firewall.
+
+## Authentification & autorisation
+- Revoir les mécanismes d'authentification (`auth/`): valider le stockage sécurisé des tokens et des refresh tokens.
+- Implémenter l'expiration/rotation des tokens et la révocation centralisée.
+- Vérifier le flux OAuth / JWT (signature, algorithme, durée, claims minimaux).
+
+## Validation & durcissement applicatif
+- Ajouter une validation/sanitation stricte des entrées réseau et des payloads JSON.
+- Éviter l'évaluation d'expressions non sûres, vérifier tous les points d'entrée (API, websocket, p2p).
+- Mettre en place rate-limiting global et par endpoint (ex: login, matchmaking).
+- Utiliser des headers de sécurité HTTP (HSTS, X-Content-Type-Options, X-Frame-Options, Content-Security-Policy si applicable).
+
+## Base de données
+- S'assurer que les connexions DB utilisent des identifiants secrets et TLS si possible.
+- Ajouter migrations (Alembic / autre) et scripts de backup automatisés.
+- Restreindre les permissions DB au minimum (principle of least privilege).
+
+## Observabilité
+- Centraliser logs structurés (JSON) et configurer rotation + niveau par environnement.
+- Ajouter métriques basiques et alerting (erreurs 5xx, latence, usage CPU/mémoire).
+- Prévoir accès aux logs et procédures pour investigation incidents.
+
+## CI/CD & tests
+- Ajouter suite de tests unitaires et d'intégration pour les endpoints critiques (auth, matchmaking, scoring).
+- Configurer pipeline CI (lint, tests, static analysis, security scan) et deploy automatisé pour staging.
+- Intégrer scan vulnérabilités dépendances (Safety, Snyk, GitHub Dependabot).
+
+## Anti-abuse & anti-cheat
+- Revoir `anticheat.py`, `multiplayer/anticheat.py` et `singleplayer/anticheat.py` pour journaux et règles exportables.
+- Ajouter mécanismes côté serveur pour détecter/freiner comportements anormaux (flood, incohérences score/état).
+
+## Release & opérationnel
+- Fournir instructions de déploiement pas-à-pas (staging → production).
+- Créer scripts de build/release (ex: `build.sh`, `build_windows.bat`, packaging, versioning).
+- Test de montée en charge basique et plan de rollback si le déploiement échoue.
+
+## Audit de sécurité final
+- Effectuer une revue de sécurité complète et, si possible, un pentest externe.
+- Corriger les issues critiques avant mise en production et documenter les décisions.
+
+---
