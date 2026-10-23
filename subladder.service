@@ -1,0 +1,18 @@
+[Unit]
+Description=SubLadder FastAPI Server
+After=network.target mariadb.service
+
+[Service]
+Type=simple
+User=eagle
+WorkingDirectory=/home/eagle/SubLadder/server
+EnvironmentFile=/home/eagle/SubLadder/server/.env
+Environment=HOST=0.0.0.0
+Environment=PORT=8000
+Environment=PYTHONPATH=/home/eagle/SubLadder:/home/eagle/SubLadder/server
+ExecStart=/home/eagle/SubLadder/server/venv/bin/python /home/eagle/SubLadder/server/server.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

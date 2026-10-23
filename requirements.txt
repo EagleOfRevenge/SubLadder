@@ -1,0 +1,25 @@
+# Sub Ladder — Python dependencies
+# Install with: pip install -r requirements.txt
+#
+# Core (required)
+# tkinter is part of the Python standard library.
+# On Linux it may need a separate install:
+#   sudo apt install python3-tk        # Debian/Ubuntu
+#   sudo dnf install python3-tkinter   # Fedora
+
+# Image support — backgrounds, flags, logos
+Pillow>=10.0.0
+
+# Audio support — music and jingles
+pygame>=2.5.0
+
+# Encrypted local storage (data.json, questions, achievements)
+cryptography>=43.0.0
+
+# Native build pipeline (release hardening)
+nuitka>=2.4.0
+ordered-set>=4.1.0
+zstandard>=0.23.0
+
+# Build tool — only needed to create .exe / binary
+# pyinstaller>=6.0.0

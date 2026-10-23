@@ -1,0 +1,3071 @@
+{
+  "_meta": {
+    "version": "3.0.0",
+    "language": "fr",
+    "description": "Pool de questions françaises pour Sub Ladder",
+    "sources": [
+      "Qui Veut Gagner des Millions ? (TF1)",
+      "12 Coups de Midi (TF1)",
+      "Tout le Monde Veut Prendre Sa Place (France 2)",
+      "Questions pour un Champion (France 3)"
+    ],
+    "level_fields": {
+      "level_easy": "Position dans une partie Facile (1-15, -1 = absente)",
+      "level_normal": "Position dans une partie Normale (1-15, -1 = absente)",
+      "level_hard": "Position dans une partie Difficile (1-15, -1 = absente)",
+      "level_legendary": "Position dans une partie Légendaire (1-15, -1 = absente)"
+    },
+    "themes": [
+      "general",
+      "nature",
+      "geography",
+      "sport",
+      "science",
+      "mathematics",
+      "music",
+      "cinema",
+      "history",
+      "literature",
+      "videogames",
+      "spelling"
+    ],
+    "total": 158
+  },
+  "questions": [
+    {
+      "id": "fr_Q001",
+      "level_easy": 1,
+      "level_normal": 1,
+      "level_hard": -1,
+      "level_legendary": -1,
+      "theme": "general",
+      "question": "Combien y a-t-il de jours dans une semaine ?",
+      "right_answer": "7",
+      "other_answers": [
+        "5",
+        "6",
+        "8",
+        "9"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q002",
+      "level_easy": 1,
+      "level_normal": 1,
+      "level_hard": -1,
+      "level_legendary": -1,
+      "theme": "general",
+      "question": "De quelle couleur est le ciel par beau temps ?",
+      "right_answer": "Bleu",
+      "other_answers": [
+        "Vert",
+        "Jaune",
+        "Rouge",
+        "Violet",
+        "Orange"
+      ],
+      "source": "12CDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q003",
+      "level_easy": 1,
+      "level_normal": 1,
+      "level_hard": -1,
+      "level_legendary": -1,
+      "theme": "nature",
+      "question": "Quel animal produit du miel ?",
+      "right_answer": "L'abeille",
+      "other_answers": [
+        "La guêpe",
+        "Le bourdon",
+        "Le frelon",
+        "Le papillon"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q004",
+      "level_easy": 1,
+      "level_normal": 1,
+      "level_hard": -1,
+      "level_legendary": -1,
+      "theme": "general",
+      "question": "Combien font 5 × 5 ?",
+      "right_answer": "25",
+      "other_answers": [
+        "20",
+        "30",
+        "10",
+        "15",
+        "35"
+      ],
+      "source": "12CDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q005",
+      "level_easy": 1,
+      "level_normal": 1,
+      "level_hard": -1,
+      "level_legendary": -1,
+      "theme": "general",
+      "question": "Combien y a-t-il de mois dans une année ?",
+      "right_answer": "12",
+      "other_answers": [
+        "10",
+        "11",
+        "13",
+        "14"
+      ],
+      "source": "12CDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q006",
+      "level_easy": 1,
+      "level_normal": 1,
+      "level_hard": -1,
+      "level_legendary": -1,
+      "theme": "general",
+      "question": "Quelle est la couleur du soleil dans un dessin d'enfant ?",
+      "right_answer": "Jaune",
+      "other_answers": [
+        "Blanc",
+        "Orange",
+        "Rouge",
+        "Bleu"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q007",
+      "level_easy": 1,
+      "level_normal": 1,
+      "level_hard": -1,
+      "level_legendary": -1,
+      "theme": "nature",
+      "question": "Combien de pattes a une araignée ?",
+      "right_answer": "8",
+      "other_answers": [
+        "6",
+        "4",
+        "10",
+        "12"
+      ],
+      "source": "12CDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q008",
+      "level_easy": 1,
+      "level_normal": 2,
+      "level_hard": -1,
+      "level_legendary": -1,
+      "theme": "general",
+      "question": "Quel est le résultat de 10 + 10 ?",
+      "right_answer": "20",
+      "other_answers": [
+        "15",
+        "25",
+        "30",
+        "12"
+      ],
+      "source": "12CDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q009",
+      "level_easy": 2,
+      "level_normal": 2,
+      "level_hard": -1,
+      "level_legendary": -1,
+      "theme": "geography",
+      "question": "Quelle est la capitale de la France ?",
+      "right_answer": "Paris",
+      "other_answers": [
+        "Lyon",
+        "Marseille",
+        "Bordeaux",
+        "Toulouse",
+        "Nice"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q010",
+      "level_easy": 2,
+      "level_normal": 2,
+      "level_hard": -1,
+      "level_legendary": -1,
+      "theme": "general",
+      "question": "Combien y a-t-il de couleurs dans l'arc-en-ciel ?",
+      "right_answer": "7",
+      "other_answers": [
+        "5",
+        "6",
+        "8",
+        "9"
+      ],
+      "source": "12CDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q011",
+      "level_easy": 2,
+      "level_normal": 2,
+      "level_hard": -1,
+      "level_legendary": -1,
+      "theme": "sport",
+      "question": "Combien de joueurs composent une équipe de football sur le terrain ?",
+      "right_answer": "11",
+      "other_answers": [
+        "9",
+        "10",
+        "12",
+        "13"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q012",
+      "level_easy": 2,
+      "level_normal": 2,
+      "level_hard": -1,
+      "level_legendary": -1,
+      "theme": "general",
+      "question": "Quel est le plus grand pays du monde par superficie ?",
+      "right_answer": "Russie",
+      "other_answers": [
+        "Canada",
+        "États-Unis",
+        "Chine",
+        "Brésil",
+        "Australie"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q013",
+      "level_easy": 2,
+      "level_normal": 3,
+      "level_hard": -1,
+      "level_legendary": -1,
+      "theme": "geography",
+      "question": "Sur quel continent se trouve le Brésil ?",
+      "right_answer": "Amérique du Sud",
+      "other_answers": [
+        "Afrique",
+        "Asie",
+        "Amérique du Nord",
+        "Europe",
+        "Océanie"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q014",
+      "level_easy": 2,
+      "level_normal": 2,
+      "level_hard": -1,
+      "level_legendary": -1,
+      "theme": "geography",
+      "question": "Quelle est la capitale de l'Espagne ?",
+      "right_answer": "Madrid",
+      "other_answers": [
+        "Barcelone",
+        "Séville",
+        "Valence",
+        "Bilbao"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q015",
+      "level_easy": 2,
+      "level_normal": 2,
+      "level_hard": -1,
+      "level_legendary": -1,
+      "theme": "general",
+      "question": "Combien y a-t-il d'heures dans une journée ?",
+      "right_answer": "24",
+      "other_answers": [
+        "12",
+        "20",
+        "48",
+        "36"
+      ],
+      "source": "12CDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q016",
+      "level_easy": 2,
+      "level_normal": 2,
+      "level_hard": -1,
+      "level_legendary": -1,
+      "theme": "nature",
+      "question": "Quel animal est le symbole de la France ?",
+      "right_answer": "Le coq",
+      "other_answers": [
+        "Le lion",
+        "L'aigle",
+        "Le loup",
+        "Le renard"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q017",
+      "level_easy": 3,
+      "level_normal": 3,
+      "level_hard": 1,
+      "level_legendary": -1,
+      "theme": "science",
+      "question": "Quelle est la formule chimique de l'eau ?",
+      "right_answer": "H2O",
+      "other_answers": [
+        "CO2",
+        "O2",
+        "NaCl",
+        "H2SO4",
+        "NH3"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q018",
+      "level_easy": 3,
+      "level_normal": 3,
+      "level_hard": 1,
+      "level_legendary": -1,
+      "theme": "sport",
+      "question": "Quel sport se joue avec un volant ?",
+      "right_answer": "Le badminton",
+      "other_answers": [
+        "Le tennis",
+        "Le squash",
+        "Le ping-pong",
+        "Le volleyball"
+      ],
+      "source": "12CDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q019",
+      "level_easy": 3,
+      "level_normal": 3,
+      "level_hard": 1,
+      "level_legendary": -1,
+      "theme": "geography",
+      "question": "Sur quel continent se trouve l'Égypte ?",
+      "right_answer": "Afrique",
+      "other_answers": [
+        "Asie",
+        "Europe",
+        "Amérique",
+        "Océanie"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q020",
+      "level_easy": 3,
+      "level_normal": 3,
+      "level_hard": 1,
+      "level_legendary": -1,
+      "theme": "cinema",
+      "question": "Quel est le prénom du héros principal de la saga Star Wars ?",
+      "right_answer": "Luke",
+      "other_answers": [
+        "Han",
+        "Anakin",
+        "Rey",
+        "Obi-Wan"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q021",
+      "level_easy": 3,
+      "level_normal": 3,
+      "level_hard": -1,
+      "level_legendary": -1,
+      "theme": "nature",
+      "question": "Quelle est la plus grande espèce de chat sauvage du monde ?",
+      "right_answer": "Le tigre",
+      "other_answers": [
+        "Le lion",
+        "Le léopard",
+        "Le jaguar",
+        "La panthère"
+      ],
+      "source": "12CDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q022",
+      "level_easy": 3,
+      "level_normal": 3,
+      "level_hard": 1,
+      "level_legendary": -1,
+      "theme": "music",
+      "question": "Combien de notes y a-t-il dans une gamme musicale ?",
+      "right_answer": "7",
+      "other_answers": [
+        "5",
+        "6",
+        "8",
+        "12"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q023",
+      "level_easy": 3,
+      "level_normal": 3,
+      "level_hard": 1,
+      "level_legendary": -1,
+      "theme": "geography",
+      "question": "Combien y a-t-il de continents sur Terre ?",
+      "right_answer": "7",
+      "other_answers": [
+        "5",
+        "6",
+        "8",
+        "9"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q024",
+      "level_easy": 3,
+      "level_normal": 3,
+      "level_hard": 1,
+      "level_legendary": -1,
+      "theme": "science",
+      "question": "Quelle force nous maintient sur la surface de la Terre ?",
+      "right_answer": "La gravité",
+      "other_answers": [
+        "Le magnétisme",
+        "La friction",
+        "L'électromagnétisme",
+        "La force nucléaire"
+      ],
+      "source": "12CDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q025",
+      "level_easy": 4,
+      "level_normal": 4,
+      "level_hard": 2,
+      "level_legendary": -1,
+      "theme": "general",
+      "question": "Qui a peint la Joconde ?",
+      "right_answer": "Léonard de Vinci",
+      "other_answers": [
+        "Michel-Ange",
+        "Raphaël",
+        "Picasso",
+        "Caravage",
+        "Botticelli"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q026",
+      "level_easy": 4,
+      "level_normal": 4,
+      "level_hard": 2,
+      "level_legendary": -1,
+      "theme": "music",
+      "question": "Combien de cordes possède une guitare classique ?",
+      "right_answer": "6",
+      "other_answers": [
+        "4",
+        "5",
+        "7",
+        "8",
+        "12"
+      ],
+      "source": "12CDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q027",
+      "level_easy": 4,
+      "level_normal": 4,
+      "level_hard": 2,
+      "level_legendary": -1,
+      "theme": "science",
+      "question": "Quelle est la substance naturelle la plus dure sur Terre ?",
+      "right_answer": "Le diamant",
+      "other_answers": [
+        "L'or",
+        "Le platine",
+        "Le quartz",
+        "Le titane",
+        "Le corindon"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q028",
+      "level_easy": 4,
+      "level_normal": 4,
+      "level_hard": 2,
+      "level_legendary": -1,
+      "theme": "geography",
+      "question": "Quelle est la capitale de l'Australie ?",
+      "right_answer": "Canberra",
+      "other_answers": [
+        "Sydney",
+        "Melbourne",
+        "Brisbane",
+        "Perth",
+        "Adelaide"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q029",
+      "level_easy": 4,
+      "level_normal": 4,
+      "level_hard": 2,
+      "level_legendary": -1,
+      "theme": "science",
+      "question": "Quelle planète est la plus proche du Soleil ?",
+      "right_answer": "Mercure",
+      "other_answers": [
+        "Vénus",
+        "Terre",
+        "Mars",
+        "Jupiter"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q030",
+      "level_easy": 4,
+      "level_normal": 4,
+      "level_hard": 2,
+      "level_legendary": -1,
+      "theme": "history",
+      "question": "En quelle année fut construite la Tour Eiffel ?",
+      "right_answer": "1889",
+      "other_answers": [
+        "1876",
+        "1882",
+        "1895",
+        "1901"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q031",
+      "level_easy": 5,
+      "level_normal": 4,
+      "level_hard": 2,
+      "level_legendary": 1,
+      "theme": "science",
+      "question": "Quel est le numéro atomique du Carbone ?",
+      "right_answer": "6",
+      "other_answers": [
+        "4",
+        "7",
+        "8",
+        "12"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q032",
+      "level_easy": 4,
+      "level_normal": 4,
+      "level_hard": 2,
+      "level_legendary": -1,
+      "theme": "history",
+      "question": "Dans quel pays Christophe Colomb est-il né ?",
+      "right_answer": "Italie",
+      "other_answers": [
+        "Espagne",
+        "Portugal",
+        "France",
+        "Angleterre"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q033",
+      "level_easy": 5,
+      "level_normal": 5,
+      "level_hard": 2,
+      "level_legendary": -1,
+      "theme": "history",
+      "question": "En quelle année s'est terminée la Seconde Guerre mondiale ?",
+      "right_answer": "1945",
+      "other_answers": [
+        "1943",
+        "1944",
+        "1946",
+        "1947",
+        "1942"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q034",
+      "level_easy": 5,
+      "level_normal": 5,
+      "level_hard": 2,
+      "level_legendary": -1,
+      "theme": "geography",
+      "question": "Quel est le plus long fleuve du monde ?",
+      "right_answer": "Le Nil",
+      "other_answers": [
+        "L'Amazone",
+        "Le Congo",
+        "Le Yangtsé",
+        "Le Mississippi",
+        "Le Gange"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q035",
+      "level_easy": 5,
+      "level_normal": 5,
+      "level_hard": 2,
+      "level_legendary": 1,
+      "theme": "science",
+      "question": "Quel élément chimique a pour symbole Au ?",
+      "right_answer": "L'or",
+      "other_answers": [
+        "L'argent",
+        "L'aluminium",
+        "Le cuivre",
+        "Le fer",
+        "Le platine"
+      ],
+      "source": "12CDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q036",
+      "level_easy": 5,
+      "level_normal": 5,
+      "level_hard": 2,
+      "level_legendary": -1,
+      "theme": "cinema",
+      "question": "Dans quelle saga entend-on la réplique « Que la Force soit avec toi » ?",
+      "right_answer": "Star Wars",
+      "other_answers": [
+        "Star Trek",
+        "Dune",
+        "Flash Gordon",
+        "Les Gardiens de la Galaxie"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q037",
+      "level_easy": 5,
+      "level_normal": 5,
+      "level_hard": 2,
+      "level_legendary": -1,
+      "theme": "sport",
+      "question": "Dans quel sport utilise-t-on un palet ?",
+      "right_answer": "Le hockey sur glace",
+      "other_answers": [
+        "Le football",
+        "Le baseball",
+        "Le tennis",
+        "Le basketball"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q038",
+      "level_easy": 7,
+      "level_normal": 5,
+      "level_hard": 2,
+      "level_legendary": 1,
+      "theme": "history",
+      "question": "En quelle année a débuté la Révolution française ?",
+      "right_answer": "1789",
+      "other_answers": [
+        "1776",
+        "1799",
+        "1804",
+        "1815"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q039",
+      "level_easy": 7,
+      "level_normal": 5,
+      "level_hard": 2,
+      "level_legendary": 1,
+      "theme": "science",
+      "question": "Quel est le symbole chimique de l'argent ?",
+      "right_answer": "Ag",
+      "other_answers": [
+        "Si",
+        "Sv",
+        "Sl",
+        "Sr"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q040",
+      "level_easy": 8,
+      "level_normal": 5,
+      "level_hard": 3,
+      "level_legendary": 1,
+      "theme": "literature",
+      "question": "Qui a écrit La Divine Comédie ?",
+      "right_answer": "Dante Alighieri",
+      "other_answers": [
+        "Pétrarque",
+        "Boccace",
+        "Virgile",
+        "Homère"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q041",
+      "level_easy": 6,
+      "level_normal": 6,
+      "level_hard": 3,
+      "level_legendary": -1,
+      "theme": "science",
+      "question": "Combien d'os possède le corps humain adulte ?",
+      "right_answer": "206",
+      "other_answers": [
+        "196",
+        "216",
+        "226",
+        "200",
+        "212"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q042",
+      "level_easy": 6,
+      "level_normal": 6,
+      "level_hard": 3,
+      "level_legendary": 1,
+      "theme": "history",
+      "question": "Qui fut le premier homme à marcher sur la Lune ?",
+      "right_answer": "Neil Armstrong",
+      "other_answers": [
+        "Buzz Aldrin",
+        "Youri Gagarine",
+        "Alan Shepard",
+        "John Glenn",
+        "Michael Collins"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q043",
+      "level_easy": 6,
+      "level_normal": 6,
+      "level_hard": 3,
+      "level_legendary": -1,
+      "theme": "music",
+      "question": "Quel groupe a sorti l'album Dark Side of the Moon ?",
+      "right_answer": "Pink Floyd",
+      "other_answers": [
+        "Led Zeppelin",
+        "The Beatles",
+        "The Rolling Stones",
+        "Queen",
+        "David Bowie"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q044",
+      "level_easy": 6,
+      "level_normal": 6,
+      "level_hard": 3,
+      "level_legendary": -1,
+      "theme": "science",
+      "question": "Quel gaz les plantes absorbent-elles lors de la photosynthèse ?",
+      "right_answer": "Le dioxyde de carbone (CO2)",
+      "other_answers": [
+        "L'oxygène",
+        "L'azote",
+        "L'hydrogène",
+        "Le méthane",
+        "L'argon"
+      ],
+      "source": "12CDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q045",
+      "level_easy": 9,
+      "level_normal": 6,
+      "level_hard": 3,
+      "level_legendary": 2,
+      "theme": "science",
+      "question": "Quel est l'organite cellulaire surnommé centrale énergétique de la cellule ?",
+      "right_answer": "La mitochondrie",
+      "other_answers": [
+        "Le noyau",
+        "Le ribosome",
+        "Le chloroplaste",
+        "L'appareil de Golgi",
+        "La vacuole"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q046",
+      "level_easy": 9,
+      "level_normal": 6,
+      "level_hard": 3,
+      "level_legendary": 2,
+      "theme": "history",
+      "question": "Quel empire était dirigé par Gengis Khan ?",
+      "right_answer": "L'Empire mongol",
+      "other_answers": [
+        "L'Empire ottoman",
+        "L'Empire romain",
+        "L'Empire perse",
+        "L'Empire byzantin"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q047",
+      "level_easy": 8,
+      "level_normal": 6,
+      "level_hard": 3,
+      "level_legendary": 2,
+      "theme": "geography",
+      "question": "Quelle est la capitale de la Nouvelle-Zélande ?",
+      "right_answer": "Wellington",
+      "other_answers": [
+        "Auckland",
+        "Christchurch",
+        "Hamilton",
+        "Dunedin"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q048",
+      "level_easy": 9,
+      "level_normal": 6,
+      "level_hard": 3,
+      "level_legendary": 2,
+      "theme": "cinema",
+      "question": "Qui a réalisé 2001 : L'Odyssée de l'espace ?",
+      "right_answer": "Stanley Kubrick",
+      "other_answers": [
+        "Ridley Scott",
+        "Steven Spielberg",
+        "George Lucas",
+        "Terry Gilliam"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q049",
+      "level_easy": 7,
+      "level_normal": 7,
+      "level_hard": 4,
+      "level_legendary": -1,
+      "theme": "literature",
+      "question": "Qui a écrit Roméo et Juliette ?",
+      "right_answer": "William Shakespeare",
+      "other_answers": [
+        "Victor Hugo",
+        "Molière",
+        "Racine",
+        "Corneille",
+        "Baudelaire"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q050",
+      "level_easy": 8,
+      "level_normal": 7,
+      "level_hard": 4,
+      "level_legendary": 2,
+      "theme": "science",
+      "question": "Quelle est la vitesse approximative de la lumière ?",
+      "right_answer": "300 000 km/s",
+      "other_answers": [
+        "150 000 km/s",
+        "450 000 km/s",
+        "200 000 km/s",
+        "500 000 km/s"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q051",
+      "level_easy": 7,
+      "level_normal": 7,
+      "level_hard": 4,
+      "level_legendary": -1,
+      "theme": "videogames",
+      "question": "Dans quelle série de jeux incarne-t-on le personnage de Link ?",
+      "right_answer": "The Legend of Zelda",
+      "other_answers": [
+        "Final Fantasy",
+        "Dragon Quest",
+        "Dark Souls",
+        "Skyrim",
+        "Xenoblade"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q052",
+      "level_easy": 7,
+      "level_normal": 7,
+      "level_hard": 3,
+      "level_legendary": -1,
+      "theme": "geography",
+      "question": "Quel est le plus grand océan du monde ?",
+      "right_answer": "L'océan Pacifique",
+      "other_answers": [
+        "L'océan Atlantique",
+        "L'océan Indien",
+        "L'océan Arctique",
+        "L'océan Austral"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q053",
+      "level_easy": 9,
+      "level_normal": 7,
+      "level_hard": 4,
+      "level_legendary": 2,
+      "theme": "science",
+      "question": "Quelle est la formule chimique du sel de table ?",
+      "right_answer": "NaCl",
+      "other_answers": [
+        "KCl",
+        "MgCl2",
+        "CaCl2",
+        "NaOH"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q054",
+      "level_easy": 10,
+      "level_normal": 7,
+      "level_hard": 4,
+      "level_legendary": 2,
+      "theme": "history",
+      "question": "En quel siècle la Renaissance a-t-elle débuté en Italie ?",
+      "right_answer": "XIVe siècle",
+      "other_answers": [
+        "XIIe siècle",
+        "XIIIe siècle",
+        "XVe siècle",
+        "XVIe siècle"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q055",
+      "level_easy": 9,
+      "level_normal": 7,
+      "level_hard": 4,
+      "level_legendary": -1,
+      "theme": "music",
+      "question": "Combien de touches possède un piano standard ?",
+      "right_answer": "88",
+      "other_answers": [
+        "72",
+        "76",
+        "84",
+        "96"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q056",
+      "level_easy": 10,
+      "level_normal": 7,
+      "level_hard": 4,
+      "level_legendary": 2,
+      "theme": "literature",
+      "question": "Dans quel roman apparaît le personnage d'Atticus Finch ?",
+      "right_answer": "Ne tirez pas sur l'oiseau moqueur",
+      "other_answers": [
+        "Les Raisins de la colère",
+        "Des souris et des hommes",
+        "Gatsby le Magnifique",
+        "À l'Est d'Éden"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q057",
+      "level_easy": 7,
+      "level_normal": 8,
+      "level_hard": 4,
+      "level_legendary": -1,
+      "theme": "history",
+      "question": "En quelle année le mur de Berlin est-il tombé ?",
+      "right_answer": "1989",
+      "other_answers": [
+        "1987",
+        "1991",
+        "1993",
+        "1985",
+        "1990"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q058",
+      "level_easy": 7,
+      "level_normal": 8,
+      "level_hard": 4,
+      "level_legendary": -1,
+      "theme": "science",
+      "question": "Combien de cavités possède le cœur humain ?",
+      "right_answer": "4",
+      "other_answers": [
+        "2",
+        "3",
+        "5",
+        "6"
+      ],
+      "source": "12CDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q059",
+      "level_easy": 8,
+      "level_normal": 8,
+      "level_hard": 4,
+      "level_legendary": 3,
+      "theme": "geography",
+      "question": "Quel est le plus petit pays du monde en superficie ?",
+      "right_answer": "Le Vatican",
+      "other_answers": [
+        "Monaco",
+        "Saint-Marin",
+        "Le Liechtenstein",
+        "Nauru",
+        "Tuvalu"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q060",
+      "level_easy": 7,
+      "level_normal": 8,
+      "level_hard": 4,
+      "level_legendary": -1,
+      "theme": "cinema",
+      "question": "Qui a réalisé le film Jurassic Park (1993) ?",
+      "right_answer": "Steven Spielberg",
+      "other_answers": [
+        "James Cameron",
+        "George Lucas",
+        "Tim Burton",
+        "Robert Zemeckis",
+        "Ron Howard"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q061",
+      "level_easy": 10,
+      "level_normal": 8,
+      "level_hard": 5,
+      "level_legendary": 2,
+      "theme": "science",
+      "question": "Quelle est la température d'ébullition de l'eau au niveau de la mer ?",
+      "right_answer": "100°C",
+      "other_answers": [
+        "90°C",
+        "95°C",
+        "105°C",
+        "110°C"
+      ],
+      "source": "12CDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q062",
+      "level_easy": 11,
+      "level_normal": 8,
+      "level_hard": 5,
+      "level_legendary": 3,
+      "theme": "history",
+      "question": "Qui était le dernier tsar de Russie ?",
+      "right_answer": "Nicolas II",
+      "other_answers": [
+        "Alexandre III",
+        "Nicolas Ier",
+        "Alexandre II",
+        "Pierre le Grand"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q063",
+      "level_easy": 11,
+      "level_normal": 8,
+      "level_hard": 5,
+      "level_legendary": 3,
+      "theme": "geography",
+      "question": "Quel pays possède le plus grand nombre de lacs naturels au monde ?",
+      "right_answer": "Le Canada",
+      "other_answers": [
+        "La Russie",
+        "Les États-Unis",
+        "La Finlande",
+        "La Suède"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q064",
+      "level_easy": 8,
+      "level_normal": 8,
+      "level_hard": 5,
+      "level_legendary": 2,
+      "theme": "videogames",
+      "question": "En quelle année le premier Super Mario Bros. est-il sorti au Japon ?",
+      "right_answer": "1985",
+      "other_answers": [
+        "1983",
+        "1984",
+        "1986",
+        "1987"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q065",
+      "level_easy": 10,
+      "level_normal": 9,
+      "level_hard": 5,
+      "level_legendary": 3,
+      "theme": "science",
+      "question": "Quel mathématicien est associé au théorème sur les triangles rectangles ?",
+      "right_answer": "Pythagore",
+      "other_answers": [
+        "Archimède",
+        "Euclide",
+        "Thalès",
+        "Aristote",
+        "Platon"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q066",
+      "level_easy": 9,
+      "level_normal": 9,
+      "level_hard": 5,
+      "level_legendary": 2,
+      "theme": "general",
+      "question": "Combien y a-t-il de bits dans un octet ?",
+      "right_answer": "8",
+      "other_answers": [
+        "4",
+        "16",
+        "32",
+        "6",
+        "12"
+      ],
+      "source": "12CDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q067",
+      "level_easy": 11,
+      "level_normal": 9,
+      "level_hard": 5,
+      "level_legendary": 3,
+      "theme": "history",
+      "question": "Quelle ancienne merveille du monde se trouvait à Alexandrie ?",
+      "right_answer": "Le Phare d'Alexandrie",
+      "other_answers": [
+        "Le Colosse de Rhodes",
+        "Les Jardins suspendus de Babylone",
+        "Le Temple d'Artémis",
+        "La Statue de Zeus"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q068",
+      "level_easy": 10,
+      "level_normal": 9,
+      "level_hard": 5,
+      "level_legendary": 3,
+      "theme": "music",
+      "question": "Combien de symphonies Beethoven a-t-il composées ?",
+      "right_answer": "9",
+      "other_answers": [
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q069",
+      "level_easy": 11,
+      "level_normal": 9,
+      "level_hard": 5,
+      "level_legendary": 3,
+      "theme": "science",
+      "question": "Quel est le symbole chimique du Potassium ?",
+      "right_answer": "K",
+      "other_answers": [
+        "P",
+        "Po",
+        "Pt",
+        "Pa"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q070",
+      "level_easy": 10,
+      "level_normal": 9,
+      "level_hard": 5,
+      "level_legendary": 3,
+      "theme": "geography",
+      "question": "Dans quel océan se trouve Madagascar ?",
+      "right_answer": "L'océan Indien",
+      "other_answers": [
+        "L'océan Atlantique",
+        "L'océan Pacifique",
+        "L'océan Austral",
+        "L'océan Arctique"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q071",
+      "level_easy": 12,
+      "level_normal": 9,
+      "level_hard": 6,
+      "level_legendary": 4,
+      "theme": "literature",
+      "question": "Qui a écrit Don Quichotte ?",
+      "right_answer": "Miguel de Cervantes",
+      "other_answers": [
+        "Lope de Vega",
+        "Francisco de Quevedo",
+        "Tirso de Molina",
+        "Calderón de la Barca"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q072",
+      "level_easy": 13,
+      "level_normal": 9,
+      "level_hard": 6,
+      "level_legendary": 4,
+      "theme": "cinema",
+      "question": "Quel film a remporté le tout premier Oscar du meilleur film en 1929 ?",
+      "right_answer": "Les Ailes",
+      "other_answers": [
+        "L'Aurore",
+        "Le Chanteur de jazz",
+        "Le Cirque",
+        "Chang"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q073",
+      "level_easy": 10,
+      "level_normal": 10,
+      "level_hard": 6,
+      "level_legendary": 3,
+      "theme": "literature",
+      "question": "Qui a écrit le roman 1984 ?",
+      "right_answer": "George Orwell",
+      "other_answers": [
+        "Aldous Huxley",
+        "Ray Bradbury",
+        "Arthur Koestler",
+        "H.G. Wells",
+        "Evelyn Waugh"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q074",
+      "level_easy": 9,
+      "level_normal": 10,
+      "level_hard": 5,
+      "level_legendary": 3,
+      "theme": "geography",
+      "question": "Quelle est la plus haute montagne du monde ?",
+      "right_answer": "L'Everest",
+      "other_answers": [
+        "Le K2",
+        "Le Kangchenjunga",
+        "Le Lhotse",
+        "Le Makalu",
+        "Le Cho Oyu"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q075",
+      "level_easy": 11,
+      "level_normal": 10,
+      "level_hard": 6,
+      "level_legendary": 3,
+      "theme": "science",
+      "question": "Quel est le gaz le plus abondant dans l'atmosphère terrestre ?",
+      "right_answer": "L'azote",
+      "other_answers": [
+        "L'oxygène",
+        "Le dioxyde de carbone",
+        "L'argon",
+        "L'hydrogène",
+        "L'hélium"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q076",
+      "level_easy": 9,
+      "level_normal": 10,
+      "level_hard": 5,
+      "level_legendary": 3,
+      "theme": "videogames",
+      "question": "En quelle année la première Nintendo Game Boy a-t-elle été commercialisée ?",
+      "right_answer": "1989",
+      "other_answers": [
+        "1985",
+        "1987",
+        "1991",
+        "1992",
+        "1993"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q077",
+      "level_easy": 12,
+      "level_normal": 10,
+      "level_hard": 6,
+      "level_legendary": 4,
+      "theme": "history",
+      "question": "Quel empereur romain a ordonné la construction du mur d'Hadrien ?",
+      "right_answer": "Hadrien",
+      "other_answers": [
+        "Auguste",
+        "Néron",
+        "Trajan",
+        "Constantin",
+        "Caligula"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q078",
+      "level_easy": 10,
+      "level_normal": 10,
+      "level_hard": 6,
+      "level_legendary": 3,
+      "theme": "science",
+      "question": "Quel est le pH de l'eau pure ?",
+      "right_answer": "7",
+      "other_answers": [
+        "5",
+        "6",
+        "8",
+        "9"
+      ],
+      "source": "12CDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q079",
+      "level_easy": 10,
+      "level_normal": 10,
+      "level_hard": 5,
+      "level_legendary": 3,
+      "theme": "music",
+      "question": "En musique, que signifie forte ?",
+      "right_answer": "Fort",
+      "other_answers": [
+        "Doux",
+        "Rapide",
+        "Lent",
+        "Strident"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q080",
+      "level_easy": 12,
+      "level_normal": 10,
+      "level_hard": 6,
+      "level_legendary": 4,
+      "theme": "geography",
+      "question": "Quel est le lac le plus profond du monde ?",
+      "right_answer": "Le lac Baïkal",
+      "other_answers": [
+        "Le lac Tanganyika",
+        "Le lac Supérieur",
+        "La mer Caspienne",
+        "Le lac Malawi"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q081",
+      "level_easy": 9,
+      "level_normal": 11,
+      "level_hard": 6,
+      "level_legendary": 3,
+      "theme": "history",
+      "question": "En quelle année le Titanic a-t-il coulé ?",
+      "right_answer": "1912",
+      "other_answers": [
+        "1910",
+        "1914",
+        "1916",
+        "1908",
+        "1920"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q082",
+      "level_easy": 11,
+      "level_normal": 11,
+      "level_hard": 7,
+      "level_legendary": 4,
+      "theme": "science",
+      "question": "Quel est le symbole chimique du fer ?",
+      "right_answer": "Fe",
+      "other_answers": [
+        "Ir",
+        "In",
+        "Fi",
+        "Fo",
+        "Fr"
+      ],
+      "source": "12CDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q083",
+      "level_easy": 10,
+      "level_normal": 11,
+      "level_hard": 6,
+      "level_legendary": 4,
+      "theme": "sport",
+      "question": "Combien de médailles d'or Usain Bolt a-t-il remportées aux JO 2008, 2012 et 2016 cumulés ?",
+      "right_answer": "8",
+      "other_answers": [
+        "5",
+        "6",
+        "7",
+        "9",
+        "10"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q084",
+      "level_easy": 9,
+      "level_normal": 11,
+      "level_hard": 5,
+      "level_legendary": 3,
+      "theme": "general",
+      "question": "Quelle est la monnaie du Japon ?",
+      "right_answer": "Le yen",
+      "other_answers": [
+        "Le won",
+        "Le yuan",
+        "Le ringgit",
+        "Le baht",
+        "Le dong"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q085",
+      "level_easy": 11,
+      "level_normal": 11,
+      "level_hard": 6,
+      "level_legendary": 4,
+      "theme": "science",
+      "question": "Comment appelle-t-on le processus par lequel une chenille se transforme en papillon ?",
+      "right_answer": "La métamorphose",
+      "other_answers": [
+        "La mue",
+        "La nymphose",
+        "La chrysalide",
+        "L'ecdysis"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q086",
+      "level_easy": 10,
+      "level_normal": 11,
+      "level_hard": 6,
+      "level_legendary": 3,
+      "theme": "history",
+      "question": "En quelle année les États-Unis ont-ils déclaré leur indépendance ?",
+      "right_answer": "1776",
+      "other_answers": [
+        "1774",
+        "1778",
+        "1781",
+        "1783"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q087",
+      "level_easy": 11,
+      "level_normal": 11,
+      "level_hard": 7,
+      "level_legendary": 4,
+      "theme": "geography",
+      "question": "Quel pays possède le plus long littoral au monde ?",
+      "right_answer": "Le Canada",
+      "other_answers": [
+        "La Norvège",
+        "La Russie",
+        "L'Indonésie",
+        "L'Australie"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q088",
+      "level_easy": 10,
+      "level_normal": 11,
+      "level_hard": 6,
+      "level_legendary": 3,
+      "theme": "literature",
+      "question": "Dans quel roman de Dickens apparaît Ebenezer Scrooge ?",
+      "right_answer": "Un chant de Noël",
+      "other_answers": [
+        "Oliver Twist",
+        "De grandes espérances",
+        "David Copperfield",
+        "La Maison d'Âpre-Vent"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q089",
+      "level_easy": 11,
+      "level_normal": 12,
+      "level_hard": 7,
+      "level_legendary": 4,
+      "theme": "literature",
+      "question": "Quel auteur a créé le personnage du détective Sherlock Holmes ?",
+      "right_answer": "Arthur Conan Doyle",
+      "other_answers": [
+        "Agatha Christie",
+        "Edgar Allan Poe",
+        "Wilkie Collins",
+        "G.K. Chesterton"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q090",
+      "level_easy": 12,
+      "level_normal": 12,
+      "level_hard": 8,
+      "level_legendary": 5,
+      "theme": "history",
+      "question": "Quel traité a officiellement mis fin à la Première Guerre mondiale ?",
+      "right_answer": "Le traité de Versailles",
+      "other_answers": [
+        "Le traité de Paris",
+        "Le traité de Westphalie",
+        "Le traité d'Utrecht",
+        "Le traité de Vienne"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q091",
+      "level_easy": 12,
+      "level_normal": 12,
+      "level_hard": 7,
+      "level_legendary": 4,
+      "theme": "science",
+      "question": "Que signifie l'acronyme ADN ?",
+      "right_answer": "Acide DésoxyriboNucléique",
+      "other_answers": [
+        "Acide Di-Nucléique",
+        "Assemblage De Nucléotides",
+        "Acide Dehydro-Naturel"
+      ],
+      "source": "12CDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q092",
+      "level_easy": 10,
+      "level_normal": 12,
+      "level_hard": 6,
+      "level_legendary": 3,
+      "theme": "videogames",
+      "question": "Quelle entreprise a développé la série The Legend of Zelda ?",
+      "right_answer": "Nintendo",
+      "other_answers": [
+        "Sega",
+        "Atari",
+        "Capcom",
+        "Konami",
+        "Square Enix"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q093",
+      "level_easy": 12,
+      "level_normal": 12,
+      "level_hard": 8,
+      "level_legendary": 5,
+      "theme": "science",
+      "question": "Quel est le nom de la galaxie dans laquelle nous vivons ?",
+      "right_answer": "La Voie Lactée",
+      "other_answers": [
+        "Andromède",
+        "Triangulum",
+        "Centaurus A",
+        "Le Tourbillon"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q094",
+      "level_easy": 13,
+      "level_normal": 12,
+      "level_hard": 8,
+      "level_legendary": 5,
+      "theme": "history",
+      "question": "Qui fut le premier empereur du Saint-Empire romain germanique ?",
+      "right_answer": "Charlemagne",
+      "other_answers": [
+        "Otton Ier",
+        "Frédéric Barberousse",
+        "Henri IV",
+        "Constantin"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q095",
+      "level_easy": 11,
+      "level_normal": 12,
+      "level_hard": 7,
+      "level_legendary": 4,
+      "theme": "music",
+      "question": "Pour quel instrument Yo-Yo Ma est-il célèbre ?",
+      "right_answer": "Le violoncelle",
+      "other_answers": [
+        "Le violon",
+        "L'alto",
+        "La contrebasse",
+        "La guitare"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q096",
+      "level_easy": 12,
+      "level_normal": 12,
+      "level_hard": 8,
+      "level_legendary": 5,
+      "theme": "geography",
+      "question": "Quel est le nom officiel du pays communément appelé Turquie ?",
+      "right_answer": "Türkiye",
+      "other_answers": [
+        "République ottomane",
+        "Anatolie",
+        "Constantinople",
+        "Turchia"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q097",
+      "level_easy": 13,
+      "level_normal": 13,
+      "level_hard": 9,
+      "level_legendary": 5,
+      "theme": "science",
+      "question": "Qui a développé la théorie de la relativité générale ?",
+      "right_answer": "Albert Einstein",
+      "other_answers": [
+        "Niels Bohr",
+        "Isaac Newton",
+        "Max Planck",
+        "Werner Heisenberg",
+        "Erwin Schrödinger"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q098",
+      "level_easy": 12,
+      "level_normal": 13,
+      "level_hard": 8,
+      "level_legendary": 5,
+      "theme": "history",
+      "question": "Dans quelle ville se trouve le siège de l'ONU ?",
+      "right_answer": "New York",
+      "other_answers": [
+        "Genève",
+        "Bruxelles",
+        "Vienne",
+        "Paris",
+        "Nairobi"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q099",
+      "level_easy": 14,
+      "level_normal": 13,
+      "level_hard": 9,
+      "level_legendary": 6,
+      "theme": "science",
+      "question": "Quel principe stipule qu'il est impossible de connaître simultanément position et quantité de mouvement d'une particule ?",
+      "right_answer": "Le principe d'incertitude d'Heisenberg",
+      "other_answers": [
+        "Le principe d'exclusion de Pauli",
+        "L'interprétation de Copenhague",
+        "L'équation de Schrödinger",
+        "Le théorème de Bell"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q100",
+      "level_easy": 13,
+      "level_normal": 13,
+      "level_hard": 9,
+      "level_legendary": 5,
+      "theme": "geography",
+      "question": "Quel fleuve traverse le plus grand nombre de pays au monde ?",
+      "right_answer": "Le Danube",
+      "other_answers": [
+        "Le Rhin",
+        "L'Amazone",
+        "Le Nil",
+        "Le Congo",
+        "Le Niger"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q101",
+      "level_easy": 13,
+      "level_normal": 13,
+      "level_hard": 9,
+      "level_legendary": 6,
+      "theme": "literature",
+      "question": "Qui a écrit Guerre et Paix ?",
+      "right_answer": "Léon Tolstoï",
+      "other_answers": [
+        "Fiodor Dostoïevski",
+        "Anton Tchekhov",
+        "Ivan Tourgueniev",
+        "Nicolas Gogol"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q102",
+      "level_easy": 14,
+      "level_normal": 13,
+      "level_hard": 9,
+      "level_legendary": 6,
+      "theme": "science",
+      "question": "Quelle est la formule chimique de l'ammoniac ?",
+      "right_answer": "NH3",
+      "other_answers": [
+        "NO2",
+        "N2O",
+        "NaH",
+        "N2H4"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q103",
+      "level_easy": 12,
+      "level_normal": 13,
+      "level_hard": 8,
+      "level_legendary": 5,
+      "theme": "sport",
+      "question": "En quelle année le Brésil a-t-il remporté sa première Coupe du monde de football ?",
+      "right_answer": "1958",
+      "other_answers": [
+        "1950",
+        "1954",
+        "1962",
+        "1966"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q104",
+      "level_easy": 12,
+      "level_normal": 13,
+      "level_hard": 8,
+      "level_legendary": 5,
+      "theme": "videogames",
+      "question": "Quel est le nom du royaume fictif dans The Legend of Zelda ?",
+      "right_answer": "Hyrule",
+      "other_answers": [
+        "Azeroth",
+        "Termina",
+        "Lorule",
+        "Skyloft"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q105",
+      "level_easy": 15,
+      "level_normal": 14,
+      "level_hard": 10,
+      "level_legendary": 7,
+      "theme": "science",
+      "question": "Quelle est la période radioactive (demi-vie) du Carbone 14 ?",
+      "right_answer": "~5 730 ans",
+      "other_answers": [
+        "~1 000 ans",
+        "~10 000 ans",
+        "~50 000 ans",
+        "~500 ans",
+        "~25 000 ans"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q106",
+      "level_easy": 14,
+      "level_normal": 14,
+      "level_hard": 10,
+      "level_legendary": 7,
+      "theme": "history",
+      "question": "En quelle année la Grande Charte (Magna Carta) a-t-elle été signée ?",
+      "right_answer": "1215",
+      "other_answers": [
+        "1066",
+        "1189",
+        "1265",
+        "1348",
+        "1415"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q107",
+      "level_easy": 15,
+      "level_normal": 14,
+      "level_hard": 11,
+      "level_legendary": 8,
+      "theme": "science",
+      "question": "Parmi ces éléments, lequel possède le numéro atomique le plus élevé ?",
+      "right_answer": "Uranium (U) — 92",
+      "other_answers": [
+        "Plomb (Pb) — 82",
+        "Mercure (Hg) — 80",
+        "Or (Au) — 79",
+        "Platine (Pt) — 78"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q108",
+      "level_easy": 14,
+      "level_normal": 14,
+      "level_hard": 10,
+      "level_legendary": 7,
+      "theme": "literature",
+      "question": "Dans l'Iliade d'Homère, quelle ville les Grecs ont-ils assiégée pendant dix ans ?",
+      "right_answer": "Troie",
+      "other_answers": [
+        "Sparte",
+        "Athènes",
+        "Corinthe",
+        "Carthage",
+        "Mycènes"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q109",
+      "level_easy": -1,
+      "level_normal": 14,
+      "level_hard": 11,
+      "level_legendary": 8,
+      "theme": "science",
+      "question": "À quoi est approximativement égale la constante de Planck ?",
+      "right_answer": "6,626 × 10⁻³⁴ J·s",
+      "other_answers": [
+        "3,0 × 10⁸ m/s",
+        "9,11 × 10⁻³¹ kg",
+        "1,6 × 10⁻¹⁹ C",
+        "6,022 × 10²³ mol⁻¹"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q110",
+      "level_easy": 14,
+      "level_normal": 14,
+      "level_hard": 10,
+      "level_legendary": 7,
+      "theme": "history",
+      "question": "Quel pharaon est associé à la construction de la Grande Pyramide de Gizeh ?",
+      "right_answer": "Khéops",
+      "other_answers": [
+        "Ramsès II",
+        "Toutânkhamon",
+        "Cléopâtre",
+        "Akhenaton",
+        "Thoutmosis III"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q111",
+      "level_easy": 13,
+      "level_normal": 14,
+      "level_hard": 9,
+      "level_legendary": 6,
+      "theme": "music",
+      "question": "Quel compositeur a écrit Les Quatre Saisons ?",
+      "right_answer": "Antonio Vivaldi",
+      "other_answers": [
+        "Jean-Sébastien Bach",
+        "Georg Friedrich Haendel",
+        "Franz Joseph Haydn",
+        "Wolfgang Amadeus Mozart"
+      ],
+      "source": "TLMVTSP",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q112",
+      "level_easy": 13,
+      "level_normal": 14,
+      "level_hard": 9,
+      "level_legendary": 6,
+      "theme": "geography",
+      "question": "Quel est le nom du détroit séparant l'Europe de l'Afrique ?",
+      "right_answer": "Détroit de Gibraltar",
+      "other_answers": [
+        "Détroit d'Ormuz",
+        "Bosphore",
+        "Détroit de Malacca",
+        "Passage de Drake"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q113",
+      "level_easy": -1,
+      "level_normal": 15,
+      "level_hard": 12,
+      "level_legendary": 8,
+      "theme": "science",
+      "question": "Quel physicien a le premier proposé l'existence du boson de Higgs ?",
+      "right_answer": "Peter Higgs",
+      "other_answers": [
+        "Murray Gell-Mann",
+        "Richard Feynman",
+        "Paul Dirac",
+        "Sheldon Glashow",
+        "Steven Weinberg"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q114",
+      "level_easy": 15,
+      "level_normal": 15,
+      "level_hard": 12,
+      "level_legendary": 9,
+      "theme": "history",
+      "question": "Comment s'appelait l'opération militaire alliée du Débarquement en Normandie le 6 juin 1944 ?",
+      "right_answer": "Opération Overlord",
+      "other_answers": [
+        "Opération Barbarossa",
+        "Opération Market Garden",
+        "Opération Neptune",
+        "Opération Torch",
+        "Opération Dynamo"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q115",
+      "level_easy": -1,
+      "level_normal": 15,
+      "level_hard": 12,
+      "level_legendary": 9,
+      "theme": "literature",
+      "question": "Dans l'Odyssée d'Homère, quel est le nom du cyclope aveuglé par Ulysse ?",
+      "right_answer": "Polyphème",
+      "other_answers": [
+        "Cyclope",
+        "Poséidon",
+        "Charybde",
+        "Scylla",
+        "Calypso",
+        "Tirésias"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q116",
+      "level_easy": -1,
+      "level_normal": 15,
+      "level_hard": 13,
+      "level_legendary": 10,
+      "theme": "science",
+      "question": "Quelle est approximativement la limite de Chandrasekhar ?",
+      "right_answer": "1,4 masse solaire",
+      "other_answers": [
+        "0,8 masse solaire",
+        "2,0 masses solaires",
+        "3,0 masses solaires",
+        "0,5 masse solaire"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q117",
+      "level_easy": -1,
+      "level_normal": 15,
+      "level_hard": 13,
+      "level_legendary": 9,
+      "theme": "history",
+      "question": "Qui a écrit Le Prince, texte fondateur de la philosophie politique ?",
+      "right_answer": "Nicolas Machiavel",
+      "other_answers": [
+        "Thomas Hobbes",
+        "John Locke",
+        "Jean-Jacques Rousseau",
+        "Platon",
+        "Aristote"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q118",
+      "level_easy": -1,
+      "level_normal": 15,
+      "level_hard": 13,
+      "level_legendary": 10,
+      "theme": "science",
+      "question": "Quel est le nom de la frontière théorique autour d'un trou noir dont rien ne peut s'échapper ?",
+      "right_answer": "L'horizon des événements",
+      "other_answers": [
+        "Le rayon de Schwarzschild",
+        "La sphère de photons",
+        "L'ergosphère",
+        "La singularité"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q119",
+      "level_easy": 13,
+      "level_normal": 15,
+      "level_hard": 11,
+      "level_legendary": 8,
+      "theme": "geography",
+      "question": "Quel pays contient la plus grande partie de la forêt amazonienne ?",
+      "right_answer": "Le Brésil",
+      "other_answers": [
+        "Le Pérou",
+        "La Colombie",
+        "Le Venezuela",
+        "La Bolivie"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q120",
+      "level_easy": -1,
+      "level_normal": 15,
+      "level_hard": 13,
+      "level_legendary": 10,
+      "theme": "literature",
+      "question": "Dans quelle pièce de Shakespeare le personnage Iago est-il le grand méchant ?",
+      "right_answer": "Othello",
+      "other_answers": [
+        "Macbeth",
+        "Hamlet",
+        "Le Roi Lear",
+        "La Tempête",
+        "Richard III"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q121",
+      "level_easy": -1,
+      "level_normal": -1,
+      "level_hard": 14,
+      "level_legendary": 11,
+      "theme": "mathematics",
+      "question": "Quelle est la valeur de Pi à cinq décimales ?",
+      "right_answer": "3,14159",
+      "other_answers": [
+        "3,14152",
+        "3,14169",
+        "3,14195",
+        "3,14115"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q122",
+      "level_easy": -1,
+      "level_normal": -1,
+      "level_hard": 14,
+      "level_legendary": 11,
+      "theme": "mathematics",
+      "question": "Quelle est la somme de tous les entiers de 1 à 100 ?",
+      "right_answer": "5050",
+      "other_answers": [
+        "4950",
+        "5000",
+        "5100",
+        "5151"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q123",
+      "level_easy": -1,
+      "level_normal": -1,
+      "level_hard": 14,
+      "level_legendary": 11,
+      "theme": "science",
+      "question": "Quel est le nom de la particule médiatrice de la force électromagnétique ?",
+      "right_answer": "Le photon",
+      "other_answers": [
+        "Le gluon",
+        "Le boson W",
+        "Le graviton",
+        "Le boson de Higgs"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q124",
+      "level_easy": -1,
+      "level_normal": -1,
+      "level_hard": 15,
+      "level_legendary": 12,
+      "theme": "mathematics",
+      "question": "Dans une loi normale standard, environ quel pourcentage des valeurs se trouve à moins d'un écart-type de la moyenne ?",
+      "right_answer": "68 %",
+      "other_answers": [
+        "50 %",
+        "75 %",
+        "90 %",
+        "95 %"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q125",
+      "level_easy": -1,
+      "level_normal": -1,
+      "level_hard": 15,
+      "level_legendary": 12,
+      "theme": "science",
+      "question": "Quel est le nom du processus par lequel un solide se transforme directement en gaz sans passer par l'état liquide ?",
+      "right_answer": "La sublimation",
+      "other_answers": [
+        "L'évaporation",
+        "La condensation",
+        "La déposition",
+        "La vaporisation"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q126",
+      "level_easy": -1,
+      "level_normal": -1,
+      "level_hard": 15,
+      "level_legendary": 12,
+      "theme": "history",
+      "question": "Quelle bataille en 1066 a décidé du sort de l'Angleterre ?",
+      "right_answer": "Bataille de Hastings",
+      "other_answers": [
+        "Bataille de Stamford Bridge",
+        "Bataille de Fulford",
+        "Bataille de Maldon",
+        "Bataille de Brunanburh"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q127",
+      "level_easy": -1,
+      "level_normal": -1,
+      "level_hard": 15,
+      "level_legendary": 13,
+      "theme": "mathematics",
+      "question": "Quel théorème stipule que tout entier supérieur à 1 est soit premier, soit produit de nombres premiers ?",
+      "right_answer": "Théorème fondamental de l'arithmétique",
+      "other_answers": [
+        "Dernier théorème de Fermat",
+        "Conjecture de Goldbach",
+        "Théorème des nombres premiers",
+        "Lemme d'Euclide"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q128",
+      "level_easy": -1,
+      "level_normal": -1,
+      "level_hard": -1,
+      "level_legendary": 13,
+      "theme": "science",
+      "question": "Quel est le nom de l'effet quantique permettant à une particule de traverser une barrière qu'elle ne pourrait pas franchir classiquement ?",
+      "right_answer": "L'effet tunnel quantique",
+      "other_answers": [
+        "La dualité onde-corpuscule",
+        "La superposition",
+        "L'intrication quantique",
+        "Le couplage spin-orbite"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q129",
+      "level_easy": -1,
+      "level_normal": -1,
+      "level_hard": -1,
+      "level_legendary": 14,
+      "theme": "mathematics",
+      "question": "Quelle conjecture affirme que tout entier pair supérieur à 2 est la somme de deux nombres premiers ?",
+      "right_answer": "La conjecture de Goldbach",
+      "other_answers": [
+        "La conjecture des nombres premiers jumeaux",
+        "L'hypothèse de Riemann",
+        "La conjecture de Collatz",
+        "Le dernier théorème de Fermat"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q130",
+      "level_easy": -1,
+      "level_normal": -1,
+      "level_hard": -1,
+      "level_legendary": 14,
+      "theme": "science",
+      "question": "Quel est le rayon de Schwarzschild d'un trou noir ayant la masse de la Terre ?",
+      "right_answer": "~9 millimètres",
+      "other_answers": [
+        "~9 centimètres",
+        "~9 mètres",
+        "~90 millimètres",
+        "~0,9 millimètre"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q131",
+      "level_easy": -1,
+      "level_normal": -1,
+      "level_hard": -1,
+      "level_legendary": 15,
+      "theme": "mathematics",
+      "question": "Dans l'identité d'Euler e^(iπ) + 1 = 0, que représente 'e' ?",
+      "right_answer": "Le nombre d'Euler (~2,718)",
+      "other_answers": [
+        "L'excentricité d'une ellipse",
+        "Le carré de la base du logarithme naturel",
+        "La constante de Planck",
+        "La cinquième lettre de l'alphabet grec"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q132",
+      "level_easy": -1,
+      "level_normal": -1,
+      "level_hard": -1,
+      "level_legendary": 15,
+      "theme": "science",
+      "question": "Quel est le nom de la particule hypothétique qui voyagerait plus vite que la lumière ?",
+      "right_answer": "Le tachyon",
+      "other_answers": [
+        "Le neutrino",
+        "Le muon",
+        "Le graviton",
+        "Le luxon"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q133",
+      "level_easy": -1,
+      "level_normal": -1,
+      "level_hard": -1,
+      "level_legendary": 15,
+      "theme": "history",
+      "question": "En quelle année la bibliothèque d'Alexandrie a-t-elle brûlé pour la dernière fois, mettant fin à son existence ?",
+      "right_answer": "391 après J.-C.",
+      "other_answers": [
+        "48 avant J.-C.",
+        "270 après J.-C.",
+        "642 après J.-C.",
+        "415 après J.-C."
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q134",
+      "level_easy": 3,
+      "level_normal": 3,
+      "level_hard": 1,
+      "level_legendary": -1,
+      "theme": "sport",
+      "question": "Quel pays a remporté la première Coupe du monde de football en 1930 ?",
+      "right_answer": "L'Uruguay",
+      "other_answers": [
+        "Le Brésil",
+        "L'Argentine",
+        "L'Italie",
+        "La France"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q135",
+      "level_easy": 6,
+      "level_normal": 5,
+      "level_hard": 3,
+      "level_legendary": 2,
+      "theme": "sport",
+      "question": "Qui a remporté le championnat du monde de Formule 1 en 1994 ?",
+      "right_answer": "Michael Schumacher",
+      "other_answers": [
+        "Ayrton Senna",
+        "Damon Hill",
+        "Nigel Mansell",
+        "Mika Häkkinen"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q136",
+      "level_easy": 8,
+      "level_normal": 7,
+      "level_hard": 4,
+      "level_legendary": 3,
+      "theme": "sport",
+      "question": "Durant la période 1950-1969, quel pilote a remporté le plus de grands prix de Formule 1 ?",
+      "right_answer": "Jim Clark",
+      "other_answers": [
+        "Juan Manuel Fangio",
+        "Jack Brabham",
+        "Graham Hill",
+        "Stirling Moss"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q137",
+      "level_easy": 10,
+      "level_normal": 9,
+      "level_hard": 6,
+      "level_legendary": 4,
+      "theme": "sport",
+      "question": "Quel club a remporté la Ligue 1 lors de la saison 2001-2002 ?",
+      "right_answer": "Lyon",
+      "other_answers": [
+        "Paris Saint-Germain",
+        "Marseille",
+        "Monaco",
+        "Lens"
+      ],
+      "source": "12CDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q138",
+      "level_easy": 11,
+      "level_normal": 10,
+      "level_hard": 7,
+      "level_legendary": 5,
+      "theme": "sport",
+      "question": "Quel pilote de Formule 1 a été champion du monde en 1962 ?",
+      "right_answer": "Graham Hill",
+      "other_answers": [
+        "Jim Clark",
+        "Jack Brabham",
+        "Dan Gurney",
+        "Bruce McLaren"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q139",
+      "level_easy": 4,
+      "level_normal": 3,
+      "level_hard": 2,
+      "level_legendary": -1,
+      "theme": "spelling",
+      "question": "Laquelle de ces propositions est la bonne orthographe de ce grand arbuste à fleurs ?",
+      "right_answer": "Rhododendron",
+      "other_answers": [
+        "Rododendron",
+        "Rhododendren",
+        "Rhodhodendron",
+        "Rododendren"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q140",
+      "level_easy": 5,
+      "level_normal": 4,
+      "level_hard": 2,
+      "level_legendary": -1,
+      "theme": "spelling",
+      "question": "Laquelle de ces propositions est la bonne orthographe du mot signifiant « relatif à l'estomac et aux intestins » ?",
+      "right_answer": "Gastro-intestinal",
+      "other_answers": [
+        "Gastro-entestinal",
+        "Gastro-intestionnal",
+        "Gastro-intestinale",
+        "Gastro-inestinal"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q141",
+      "level_easy": 6,
+      "level_normal": 5,
+      "level_hard": 3,
+      "level_legendary": 2,
+      "theme": "spelling",
+      "question": "Laquelle de ces propositions est la bonne orthographe de la phobie des araignées ?",
+      "right_answer": "Arachnophobie",
+      "other_answers": [
+        "Araknophobie",
+        "Arachnofhobie",
+        "Aracnophobie",
+        "Araknophopbie"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q142",
+      "level_easy": 9,
+      "level_normal": 8,
+      "level_hard": 5,
+      "level_legendary": 3,
+      "theme": "spelling",
+      "question": "Laquelle de ces propositions est la bonne orthographe de la branche des sciences étudiant le système nerveux ?",
+      "right_answer": "Neurosciences",
+      "other_answers": [
+        "Nuerosciences",
+        "Neuorsciences",
+        "Newrosciences",
+        "Nuersciences"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q143",
+      "level_easy": -1,
+      "level_normal": 12,
+      "level_hard": 8,
+      "level_legendary": 5,
+      "theme": "spelling",
+      "question": "Laquelle de ces propositions est la bonne orthographe du concept philosophique lié à la théorie de la connaissance ?",
+      "right_answer": "Épistémologique",
+      "other_answers": [
+        "Épistomologique",
+        "Épistémologicle",
+        "Épistémologial",
+        "Épistemologique"
+      ],
+      "source": "QVGDM",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q144",
+      "level_easy": 1,
+      "level_normal": 1,
+      "level_hard": -1,
+      "level_legendary": -1,
+      "theme": "general",
+      "question": "Quand on veut garder la ligne, qu'est-il déconseillé de faire « entre les repas » ?",
+      "right_answer": "Grignoter",
+      "other_answers": [
+        "Gigoter",
+        "Tournicoter",
+        "Tricoter"
+      ],
+      "source": "QVGDM (26/08/2004 — Marie)",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q145",
+      "level_easy": 2,
+      "level_normal": 2,
+      "level_hard": -1,
+      "level_legendary": -1,
+      "theme": "general",
+      "question": "Au cours d'une partie de cartes, un joueur fait parfois …",
+      "right_answer": "Une mauvaise pioche",
+      "other_answers": [
+        "Un râteau rouillé",
+        "Un tracteur en panne",
+        "Une sale bêche"
+      ],
+      "source": "QVGDM (26/08/2004 — Marie)",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q146",
+      "level_easy": 2,
+      "level_normal": 2,
+      "level_hard": -1,
+      "level_legendary": -1,
+      "theme": "general",
+      "question": "Quand un pilote d'avion accélère, on dit qu'il …",
+      "right_answer": "Met les gaz",
+      "other_answers": [
+        "Sent le gaz",
+        "Met l'eau dans le gaz",
+        "Est dans le gaz"
+      ],
+      "source": "QVGDM (26/08/2004 — Marie)",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q147",
+      "level_easy": 3,
+      "level_normal": 3,
+      "level_hard": 1,
+      "level_legendary": -1,
+      "theme": "music",
+      "question": "Un célèbre personnage de chanson enfantine s'appelle …",
+      "right_answer": "Le père Lustucru",
+      "other_answers": [
+        "Le père Lustuvu",
+        "Le père Lustupu",
+        "Le père Lustulu"
+      ],
+      "source": "QVGDM (26/08/2004 — Marie)",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q148",
+      "level_easy": 3,
+      "level_normal": 4,
+      "level_hard": 2,
+      "level_legendary": -1,
+      "theme": "sport",
+      "question": "Au football, il est permis de tromper l'adversaire en faisant …",
+      "right_answer": "Une feinte",
+      "other_answers": [
+        "Un canular",
+        "Un attrape-nigaud",
+        "Une farce"
+      ],
+      "source": "QVGDM (26/08/2004 — Marie)",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q149",
+      "level_easy": 5,
+      "level_normal": 5,
+      "level_hard": 3,
+      "level_legendary": -1,
+      "theme": "general",
+      "question": "D'après le proverbe, qu'est-ce qui « n'atteint pas la blanche colombe » ?",
+      "right_answer": "La bave du crapaud",
+      "other_answers": [
+        "La balle du chasseur",
+        "La toile d'araignée",
+        "Le dard de la guêpe"
+      ],
+      "source": "QVGDM (26/08/2004 — Marie)",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q150",
+      "level_easy": 6,
+      "level_normal": 6,
+      "level_hard": 4,
+      "level_legendary": -1,
+      "theme": "music",
+      "question": "Laquelle de ces chansons n'est pas interprétée par Madonna ?",
+      "right_answer": "Purple Rain",
+      "other_answers": [
+        "Vogue",
+        "True Blue",
+        "Holiday"
+      ],
+      "source": "QVGDM (26/08/2004 — Marie)",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q151",
+      "level_easy": 7,
+      "level_normal": 7,
+      "level_hard": 4,
+      "level_legendary": -1,
+      "theme": "history",
+      "question": "Le 24 décembre 1974, qui le président Giscard d'Estaing invite-t-il au petit déjeuner ?",
+      "right_answer": "Des éboueurs",
+      "other_answers": [
+        "Des facteurs",
+        "Des jardiniers",
+        "Des plombiers"
+      ],
+      "source": "QVGDM (26/08/2004 — Marie)",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q152",
+      "level_easy": 7,
+      "level_normal": 8,
+      "level_hard": 5,
+      "level_legendary": 2,
+      "theme": "science",
+      "question": "Quelle partie de l'œil humain est colorée en bleu, vert ou brun ?",
+      "right_answer": "L'iris",
+      "other_answers": [
+        "La cornée",
+        "La rétine",
+        "La pupille"
+      ],
+      "source": "QVGDM (26/08/2004 — Marie)",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q153",
+      "level_easy": 9,
+      "level_normal": 9,
+      "level_hard": 6,
+      "level_legendary": 3,
+      "theme": "general",
+      "question": "Quel grand couturier a dessiné la couverture du Petit Larousse illustré 2005 ?",
+      "right_answer": "Christian Lacroix",
+      "other_answers": [
+        "Yves Saint Laurent",
+        "Karl Lagerfeld",
+        "Jean-Paul Gaultier"
+      ],
+      "source": "QVGDM (26/08/2004 — Marie)",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q154",
+      "level_easy": 11,
+      "level_normal": 10,
+      "level_hard": 7,
+      "level_legendary": 4,
+      "theme": "general",
+      "question": "Qu'est-ce qui est brodé sur l'habit des membres de l'Académie française ?",
+      "right_answer": "Une branche d'olivier",
+      "other_answers": [
+        "Une feuille de chêne",
+        "Une fleur d'oranger",
+        "Une tige de fougère"
+      ],
+      "source": "QVGDM (26/08/2004 — Marie)",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q155",
+      "level_easy": -1,
+      "level_normal": 11,
+      "level_hard": 8,
+      "level_legendary": 5,
+      "theme": "nature",
+      "question": "Lequel de ces animaux faut-il châtrer avant de le cuire ?",
+      "right_answer": "L'écrevisse",
+      "other_answers": [
+        "Le calamar",
+        "L'huître",
+        "La truite"
+      ],
+      "source": "QVGDM (26/08/2004 — Marie)",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q156",
+      "level_easy": -1,
+      "level_normal": 12,
+      "level_hard": 9,
+      "level_legendary": 6,
+      "theme": "geography",
+      "question": "Quelle est la capitale de Taïwan ?",
+      "right_answer": "Taipei",
+      "other_answers": [
+        "Formose",
+        "Macao",
+        "Taïwan"
+      ],
+      "source": "QVGDM (26/08/2004 — Marie)",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q157",
+      "level_easy": -1,
+      "level_normal": 13,
+      "level_hard": 10,
+      "level_legendary": 7,
+      "theme": "cinema",
+      "question": "Dans le dessin animé, les fameux Shadoks pondent des œufs en …",
+      "right_answer": "Fer",
+      "other_answers": [
+        "Bois",
+        "Mousse",
+        "Verre"
+      ],
+      "source": "QVGDM (26/08/2004 — Marie)",
+      "author": "official",
+      "contributor": null
+    },
+    {
+      "id": "fr_Q158",
+      "level_easy": -1,
+      "level_normal": 14,
+      "level_hard": 11,
+      "level_legendary": 8,
+      "theme": "sport",
+      "question": "En 1908 aux JO, le marathon se dispute pour la première fois sur 42,195 km entre …",
+      "right_answer": "Windsor et Londres",
+      "other_answers": [
+        "Versailles et Paris",
+        "Le Pirée et Athènes",
+        "Pise et Rome"
+      ],
+      "source": "QVGDM (26/08/2004 — Marie)",
+      "author": "official",
+      "contributor": null
+    }
+  ]
+}
