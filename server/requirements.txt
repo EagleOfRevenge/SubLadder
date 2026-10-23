@@ -1,0 +1,19 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pymysql==1.1.0
+bcrypt==4.1.1
+python-jose[cryptography]==3.3.0
+python-multipart==0.0.6
+aiofiles==23.2.1
+prometheus-client==0.16.0
+itsdangerous>=2.1.2
+
+# Chat connectors (Twitch / YouTube)
+httpx>=0.25.0
+tmi>=0.4.4
+
+# P2P / LAN discovery
+python-socketio[asyncio]>=5.11.0
+python-engineio>=4.8.0
+zeroconf>=0.135.0

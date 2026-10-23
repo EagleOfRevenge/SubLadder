@@ -1,0 +1,38 @@
+{
+    "server": {
+        "host": "0.0.0.0",
+        "port": 8000,
+        "debug": false
+    },
+    "database": {
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "root",
+        "password": "CHANGER_CECI",
+        "name": "sub_ladder"
+    },
+    "jwt": {
+        "secret": "CHANGER_CECI_GENEREZ_UN_SECRET_ALATOIRE",
+        "algorithm": "HS256",
+        "expires_minutes": 10080
+    },
+    "discord": {
+        "enabled": true,
+        "client_id": "CHANGER_CECI",
+        "client_secret": "CHANGER_CECI",
+        "redirect_uri": "CHANGER_CECI",
+        "bot_token": "CHANGER_CECI"
+    },
+    "steam": {
+        "enabled": true,
+        "api_key": "CHANGER_CECI",
+        "redirect_uri": "CHANGER_CECI"
+    },
+    "cors": {
+        "enabled": true,
+        "origins": [
+            "http://localhost:8080",
+            "http://127.0.0.1:8080"
+        ]
+    }
+}
