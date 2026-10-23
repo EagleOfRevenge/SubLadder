@@ -1,184 +1,213 @@
-# Sub Ladder 🎯
+# Sub Ladder
 
-A **"Who Wants to Be a Millionaire?"** style quiz game built with Python + tkinter,
-designed for streamers (Twitch / YouTube). Prizes are measured in **subs**.
+Sub Ladder is a **Who Wants to Be a Millionaire?**-style quiz game built with
+Python and Tkinter. It is designed for streamers and awards virtual "subs"
+for correct answers. The repository also contains a separate FastAPI backend
+for online profiles and multiplayer features.
 
----
+## Contents
 
-## Quick start
+- [Features](#features)
+- [Requirements](#requirements)
+- [Run the desktop game](#run-the-desktop-game)
+- [Run the backend](#run-the-backend)
+- [Project layout](#project-layout)
+- [Player data and assets](#player-data-and-assets)
+- [Add a language](#add-a-language)
+- [Add questions](#add-questions)
+- [Build a Windows executable](#build-a-windows-executable)
+- [Tests](#tests)
+
+## Features
+
+- Single-player quiz with Easy, Normal, Hard, and Legendary difficulty modes.
+- Profiles, achievements, score history, statistics, and profile export.
+- English and French interface and question sets.
+- Themes, resolution options, sound effects, and music.
+- Online account/profile features, social screens, and ranked screens that use
+  the configured backend.
+- Local/LAN multiplayer and streamer-oriented game screens.
+
+The desktop client and backend are separate applications. Online, ranked,
+streamer, and multiplayer flows may require a running and correctly configured
+server or external service; the presence of a screen or API endpoint does not
+by itself mean that a production deployment has been validated.
+
+## Requirements
+
+- Python 3.10 or newer is recommended.
+- Tkinter (included with many Python distributions; install your OS package if
+  it is missing).
+- The Python packages in the root `requirements.txt` for the desktop client.
+
+On Debian/Ubuntu, install Tkinter with:
 
 ```bash
-# 1. Install dependencies
-pip install -r requirements.txt
+sudo apt install python3-tk
+```
 
-# 2. Run the game
+## Run the desktop game
+
+From the repository root:
+
+```bash
+python -m venv .venv
+```
+
+Activate the environment, then install dependencies and launch the game:
+
+```bash
+# Linux/macOS
+source .venv/bin/activate
+pip install -r requirements.txt
 python run.py
 ```
 
-> **Linux**: if tkinter is missing → `sudo apt install python3-tk`
-
----
-
-## Project structure
-
-```
-SubLadder/
-├── run.py                  ← launcher (start here)
-├── requirements.txt
-├── CHANGELOG.md
-├── README.md
-├── SubLadder.spec          ← PyInstaller build config
-├── build_windows.bat       ← Windows build script
-├── build.sh                ← Linux / macOS build script
-├── BUILD.md                ← detailed build instructions
-│
-├── game/                   ← Python source package
-│   ├── __init__.py
-│   ├── game.py             ← main application
-│   ├── first_run.py        ← first-launch wizard
-│   └── asset_manager.py    ← images, sounds, asset generation
-│
-└── data/                   ← assets & config (no .py files)
-    ├── data.json           ← assets/config shipped with the game
-    ├── languages/
-    │   ├── en.json         ← English UI strings + questions_file pointer
-    │   └── fr.json         ← French UI strings + questions_file pointer
-    ├── questions/
-    │   ├── en_questions.json
-    │   └── fr_questions.json
-    ├── pictures/
-    │   ├── backgrounds/    ← menu.png, bg_q1_5.png, bg_q6_10.png, bg_q11_15.png
-    │   ├── logos/          ← icon PNGs for UI elements
-    │   └── flags/          ← flag thumbnails (en.png, fr.png, …)
-    └── sound/
-        ├── music/          ← menu.wav, music_q1_5.wav, music_q6_10.wav, music_q11_15.wav
-        └── jingles/        ← correct.wav, wrong.wav, safe_haven.wav, win.wav, …
+```powershell
+# Windows
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python run.py
 ```
 
-User-writable state is stored in `%APPDATA%\SubLadder` on Windows, including `data.json`, `achievements.json`, avatars, and the anti-cheat log.
+The first launch opens a setup flow for language and profile creation. The game
+stores writable player data under `%APPDATA%\SubLadder` on Windows and
+`~/SubLadder` on other platforms. Language files, questions, and shipped assets
+remain in `data/`.
 
-> **Missing assets** are generated automatically at first launch when needed.
-> gradients / WAV tones). Replace them with real assets at any time — the game
-> picks them up on next start.
+## Run the backend
 
----
+The FastAPI backend is maintained separately under `server/` and requires
+MariaDB/MySQL. See [`server/README.md`](server/README.md) for configuration,
+database initialization, launch, and API details.
 
-## Game modes
+At a glance, the backend can be installed and started with:
 
-| Mode | Description | Unlock |
-|---|---|---|
-| **Easy** | Easier questions, appears at lower levels | Always available |
-| **Normal** | Standard difficulty | Always available |
-| **Hard** | Harder questions at earlier levels | Always available |
-| **Legendary** 🔒 | Only hardest questions, brutal pace | Win a Hard game |
+```bash
+cd server
+python -m venv .venv
+# Activate .venv, then:
+pip install -r requirements.txt
+cp config.example.json config.json
+# Edit config.json with database settings and a strong JWT secret.
+python database/init_db.py --host 127.0.0.1 --user root --password "your-password"
+python server.py
+```
 
----
+The API documentation is available at `http://localhost:8000/docs` when the
+server is running. Do not expose a development configuration directly to the
+internet; review the backend security and deployment guidance first.
 
-## Adding a language
+## Project layout
 
-1. Copy `data/languages/en.json` → `data/languages/xx.json`
-2. Set `"code"`, `"name"` and `"questions_file"` in the new file
-3. Translate all strings in the `"ui"` section
-4. Create the matching `data/questions/xx_questions.json`
-5. Optionally add `data/pictures/flags/xx.png` (64×40 px)
+```text
+.
+├── run.py                     # Desktop game launcher
+├── game/
+│   ├── main.py                # Tkinter application and screen navigation
+│   ├── screens/               # Menus, profiles, game, ranked, streamer, etc.
+│   ├── singleplayer/          # Single-player game logic
+│   ├── multiplayer/           # Local/LAN and multiplayer client logic
+│   ├── auth/                  # Desktop API client and token handling
+│   ├── utils.py               # Persistence, language loading, asset checks
+│   └── asset_manager.py       # Image and audio loading / fallback assets
+├── data/
+│   ├── languages/             # Interface translations
+│   ├── questions/             # Localized question sets
+│   ├── pictures/              # Backgrounds, logos, and flags
+│   └── sound/                 # Music and sound effects
+├── server/                    # FastAPI backend and MariaDB schema
+└── tests/                     # Client and server regression tests
+```
 
-The game discovers language files automatically — no code change needed.
+## Player data and assets
 
----
+Player profiles, options, achievements, and avatars are written to the
+per-user data directory, not the source `data/` folder. Existing legacy data
+may be migrated on first launch. Keep a backup of the per-user directory when
+moving a profile to another computer.
 
-## Adding questions
+Missing optional images and sounds can be generated as placeholders at
+startup. The game still expects its language and question data to be present.
 
-Edit the relevant `data/questions/xx_questions.json`.
-Each question follows this schema:
+## Add a language
+
+1. Copy `data/languages/en.json` to `data/languages/<code>.json`.
+2. Set the language `code`, display `name`, and `questions_file`.
+3. Translate the strings in the `ui` section.
+4. Add the corresponding question set at
+   `data/questions/<code>_questions.json`.
+5. Optionally add a 64 × 40 flag at `data/pictures/flags/<code>.png`.
+
+Language files are discovered from `data/languages/`; no code change is
+normally needed.
+
+## Add questions
+
+Add questions to the matching file in `data/questions/`. A question can use
+the following fields:
 
 ```json
 {
-  "id":            "en_Q999",
-  "level_easy":    5,
-  "level_normal":  8,
-  "level_hard":    12,
+  "id": "en_Q999",
+  "level_easy": 5,
+  "level_normal": 8,
+  "level_hard": 12,
   "level_legendary": 3,
-  "theme":         "science",
-  "question":      "What is the chemical symbol for Gold?",
-  "right_answer":  "Au",
+  "theme": "science",
+  "question": "What is the chemical symbol for gold?",
+  "right_answer": "Au",
   "other_answers": ["Ag", "Go", "Gd", "Fe"],
-  "source":        "WWTBAM",
-  "author":        "community",
-  "contributor":   "YourName"
+  "source": "Reference or source",
+  "author": "community",
+  "contributor": "YourName"
 }
 ```
 
-**Rules:**
-- `id` must be unique across the entire file
-- Set a `level_*` to `-1` if the question should not appear in that mode
-- `other_answers` must have at least 3 entries (the game picks 3 randomly)
-- Themes: `general` `nature` `geography` `sport` `science` `mathematics`
-  `music` `cinema` `history` `literature` `videogames` `spelling`
+Guidelines:
 
----
+- Keep `id` unique within the question file.
+- Use `-1` for a mode level if that question is unavailable in that mode.
+- Provide at least three `other_answers`; the game selects three to display
+  alongside the correct answer.
+- A question may include an `explanation` shown after an incorrect answer.
+- Existing themes include `general`, `nature`, `geography`, `sport`, `science`,
+  `mathematics`, `music`, `cinema`, `history`, `literature`, `videogames`, and
+  `spelling`.
 
-## Building an executable (no Python required for players)
+## Build a Windows executable
 
-See **BUILD.md** for full instructions.
+The recommended Windows release build uses Nuitka:
 
-**Recommended (Windows release hardening): Nuitka**
-```bash
-# from project root on Windows
-build_windows_nuitka.bat onefile
-# Output: dist/SubLadder-Nuitka/SubLadder.exe
-```
-
-Alternative mode:
-```bash
-build_windows_nuitka.bat standalone
-# Output: dist/SubLadder-Nuitka/run.dist/SubLadder.exe
-```
-
-Compare both (size + startup):
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\compare_nuitka_builds.ps1
+.\build_windows_nuitka.bat onefile
 ```
 
-Nuitka keeps the project in Python but compiles to a native executable,
-which is harder to reverse engineer than a classic bytecode bundle.
-The provided script uses Nuitka's MinGW64 toolchain automatically, so a
-separate Visual Studio compiler install is not required for this build path.
-For this project, Python 3.12 is recommended for release builds
-(the repository already includes a .venv312 environment path used first
-by the script when available).
+For a standalone directory build:
 
-**Short version:**
+```powershell
+.\build_windows_nuitka.bat standalone
+```
+
+See [`WINDOWS_INSTALLER.md`](WINDOWS_INSTALLER.md) for output locations,
+comparison, and installer packaging. The legacy PyInstaller build scripts are
+also present; builds should be created on the target operating system.
+
+## Tests
+
+The regression tests use `pytest`. From the repository root, install it in
+your development environment if needed and run:
+
 ```bash
-pip install pyinstaller pillow pygame
-pyinstaller SubLadder.spec
-# Output: dist/SubLadder/SubLadder(.exe on Windows)
+python -m pytest
 ```
-
-Build must be run on each target OS separately (PyInstaller limitation).
-
----
-
-## Roadmap
-
-| Version | Feature |
-|---|---|
-| v2.0 | Difficulty selection in-game |
-| v3.0 | Themed 15-question packs |
-| v4.0 | Community translations |
-| v5.0 | Community question submission + greenlight system |
-| v6.0 | Online global leaderboard (dedicated server) |
-| v7.0 | Real-time multiplayer + ELO ranked + Steam? |
-
----
 
 ## Contributing
 
-- **Questions**: open a thread on the [Discord server](https://discord.gg/YgQZTaxnPx)
-- **Translations**: copy a language file, translate, submit via Discord
-- **Bug reports**: Discord or GitHub issues
-
----
+- **Questions and translations:** contribute via the project Discord.
+- **Bug reports and feature requests:** open a GitHub issue.
+- **Pull requests:** include a concise description and relevant test results.
 
 ## License
 
-Free to use, modify and share. If you stream it, a shout-out is appreciated! 🎮
+See [`LICENSE`](LICENSE).
